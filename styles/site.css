@@ -11,12 +11,20 @@ main h1{
     text-align: center;
     background-color: #851944;
     color: #FFF;
+    margin: 0;
+    padding: 24px;
 }
 p{
     text-align: justify;  
 }
 blockquote{
-    color:#D9E5E3;
+    
+    background-color: #D3DDDA;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
 }
 aside{
     background-color: #3C1D3D;
@@ -35,4 +43,8 @@ main a{
 aside a{
     color:inherit;
     font-family: "Open Sans Condesed", sans-serif;
+}
+
+.posts{
+    width: 720px;
 }
